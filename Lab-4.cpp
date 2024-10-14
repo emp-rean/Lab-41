@@ -17,10 +17,10 @@ void prog1()
     cin >> c;
 
     // Условные операторы
-    if ((a % c == 0 & b % c == 0) || (a % c == 1 & b % c == 1))  {
+    if ((a % c == 0 && b % c == 0) || (a % c == 1 && b % c == 1))  {
         cout << "Result: "<< (a + b) / c<< endl;
     }
-    else if ((a % c == 0 & b % c != 0) || (a % c == 1 & b % c != 1)) {
+    else if ((a % c == 0 && b % c != 0) || (a % c == 1 && b % c != 1)) {
         cout << "Result: "<< (a / c) + b<< endl;
     }
     else {
@@ -55,7 +55,7 @@ void prog3() {
     if (x == -1) {
         cout << "Negative number"<< endl;
     }
-    else if (x != 1 & x != -1)
+    else if (x != 1 && x != -1)
      {
         cout << "Error"<< endl;
     }
@@ -75,7 +75,6 @@ void prog31() {
 }
 
 int main() {
-    setlocale(LC_ALL, "RU");
     cout << "Programm 1:"<< endl;
     prog1();
     cout << "Programm 2:"<< endl;
