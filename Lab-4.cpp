@@ -77,9 +77,9 @@ void prog31() {
 int main() {
     setlocale(LC_ALL, "RU");
     cout << "Programm 1:"<< endl;
-    //prog1();
+    prog1();
     cout << "Programm 2:"<< endl;
-    //prog2();
+    prog2();
     cout << "Programm 3:"<< endl;
     prog3();
     cout << "Another Programm 3:"<< endl;
